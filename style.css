@@ -1,0 +1,71 @@
+*{
+	margin: opx;
+	padding: 0px;
+	font-face: century;
+}
+
+body {
+	background-image: url(heaven2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ul {
+   float: right;
+   list-style-type: none;
+   margin-top: 30px;
+   min-height: 400px;
+   margin-right: 40px;
+   font-size: 17px;
+}
+
+ul li {
+  display: inline-block;
+}
+ 
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px ;
+  transition: 0.5 ease;
+} 
+ 
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+ } 
+ 
+ul li.active a{ 
+  background-color: #fff;
+  color: #000;
+ } 
+ 
+.main {
+  max-width: 1200px;
+  margin: auto;
+  color: black;
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

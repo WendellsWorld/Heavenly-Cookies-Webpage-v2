@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-face: century;
+}
+
+body {
+	background-image: url(oreo.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ul {
+   float: right;
+   list-style-type: none;
+   margin-top: 18px;
+   min-height: 300px;
+   margin-right: 40px;
+   font-size: 17px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 25px;
+  border: 25px ;
+  transition: 0.5 ease;
+} 
+ 
+ul li a:hover{
+  background-color: lightgrey;
+  color: #000;
+ } 
+ 
+ul li.active a{ 
+  background-color: lightgrey;
+  color: #000;
+ } 
+ 
+.main {
+  max-width: 1150px;
+  margin: auto;
+} 
+ 
+.section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+ 
+.home {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: rem;
+  background: white;
+
+ 
+.home .home-content h1 {
+  font-size: 6rem;
+  font-weight: 200 ;
+  line-height: 1.3;
+}
+ 
+Span {
+  color: pink;
+}
+ 
+.home-content h3 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-weight: 100;
+}
+ 
+.home-img {
+  border-radius: 50%;
+}
+ 
+.home-img img{
+  position: relative;
+  width: 50vh;
+  border-radius:100px;
+  box-shadow: 0 0 5px solid;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
